@@ -1,0 +1,10 @@
+a=1 
+b=2
+c=3
+
+if [ $a -eq 1 -a $b -eq 2 -a $c -eq 3 ]
+	then
+	echo "yes"
+else
+	echo "no"
+fi
